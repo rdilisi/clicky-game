@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+}
+.header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: purple;
+  color: white;
+  padding: 30px;
+  font-size: 24px;
+
+}
+
+.images {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 40px;
+  margin: 40px;
+}
+
+img {
+  width: 100%
+}
